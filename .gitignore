@@ -1,0 +1,13 @@
+# Sanal ortam
+.venv/
+
+# Python önbelleği
+__pycache__/
+
+# Veri ve videolar
+data/
+*.mp4
+
+# Model dosyaları
+*.pt
+*.onnx 
