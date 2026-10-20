@@ -1,0 +1,31 @@
+{
+  "query":  "red_jacket blue_pants", 
+  "video_path": "data/videos/village_search.mp4",
+  "created_at": "2026-10-20 16:50",
+                                               
+  "findings": [
+    {
+      "track_id": 7,
+      "class_name": "person",
+      "confidence": 0.31,
+      "first_seen_sec": 2.13,
+      "last_seen_sec": 3.21,
+      "bbox": [640, 360, 680, 450],
+      "evidence_frame": "outputs/frames/track_7_000064.jpg",
+      "vlm_answer": "Red jacket, but looks like an adult.",
+      "match": false
+    },
+    {
+        "track_id": 9,
+      "class_name": "person",
+      "confidence": 0.91,
+      "first_seen_sec": 6.03,
+      "last_seen_sec": 8.21,
+      "bbox": [610, 300, 650, 400],
+      "evidence_frame": "outputs/frames/track_9_000181.jpg",
+      "vlm_answer": "Red jacket and blue pants ,looks like a child.",
+      "match": true
+      
+    }
+  ]
+}
